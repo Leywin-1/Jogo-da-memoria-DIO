@@ -1,0 +1,84 @@
+/* style.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #C71585, #4B0082); /* Gradiente de rosa a roxo */
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title {
+    color: #FFF;
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2));
+    border-radius: 10px;
+    perspective: 1000px; /* Efeito de profundidade para a animação */
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+.card-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    backface-visibility: hidden; /* Oculta o verso do elemento */
+    font-size: 4rem;
+}
+
+.card-front {
+    background-color: #333;
+}
+
+.card-back {
+    background-color: #444;
+    transform: rotateY(180deg);
+}
+
+.reset-button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #B0B0B0; /* Cinza claro */
+    color: #2E2E2E;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
+}
+
+.reset-button:hover {
+    background-color: #D3D3D3;
+}
