@@ -2,10 +2,6 @@
 
 Este é um clássico jogo da memória desenvolvido para web, utilizando apenas as tecnologias essenciais: HTML, CSS e JavaScript puro. O objetivo é encontrar todos os pares de emojis no menor tempo possível. O projeto foi criado com um design minimalista e retrô, inspirado em jogos clássicos.
 
-![Preview do Jogo da Memória](https://i.imgur.com/k2e4u5L.png)
-
-*(Você pode substituir o link acima por uma captura de tela do seu projeto)*
-
 ---
 
 ## ✨ Funcionalidades
