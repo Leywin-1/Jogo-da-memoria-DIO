@@ -30,3 +30,45 @@ Este projeto foi construído utilizando apenas as tecnologias fundamentais da we
 ## 📂 Estrutura do Projeto
 
 O projeto está organizado da seguinte forma para manter o código limpo e modular:
+.
+├── index.html
+├── README.md
+└── src/
+├── scripts/
+│ └── main.js
+└── styles/
+├── reset.css
+└── style.css
+
+-   **`index.html`**: Arquivo principal que contém a estrutura da página.
+-   **`src/styles/`**: Pasta que armazena os arquivos de estilização.
+    -   `reset.css`: Zera os estilos padrão dos navegadores.
+    -   `style.css`: Estilização principal do jogo.
+-   **`src/scripts/`**: Pasta que contém a lógica do jogo.
+    -   `main.js`: Lógica de criação do tabuleiro, virada de cartas e regras do jogo.
+
+---
+
+## 🚀 Como Executar o Jogo
+
+Como este é um projeto baseado em tecnologias front-end puras, você não precisa de um servidor ou de qualquer processo de compilação.
+
+1.  Clone este repositório (ou baixe os arquivos para o seu computador).
+2.  Navegue até a pasta raiz do projeto.
+3.  Abra o arquivo `index.html` diretamente no seu navegador de preferência (Google Chrome, Firefox, etc.).
+
+E pronto! O jogo estará funcionando.
+
+---
+
+## 🎮 Como Jogar
+
+1.  Abra o jogo no seu navegador.
+2.  Clique em uma carta para revelar o emoji escondido.
+3.  Clique em uma segunda carta para tentar encontrar o par correspondente.
+4.  Se os emojis forem iguais, as cartas permanecerão viradas.
+5.  Se forem diferentes, elas voltarão a ficar viradas para baixo.
+6.  Continue até que todos os pares tenham sido encontrados.
+7.  Use o botão **RESET GAME** se quiser começar uma nova partida a qualquer momento.
+
+Divirta-se!
